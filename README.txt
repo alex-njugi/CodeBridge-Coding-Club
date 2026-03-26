@@ -24,4 +24,4 @@ Notes:
 - The website uses a light theme only.
 
 Live at:
-- https://alex-njugi.github.io/CodeBridge-Coding-Club/
+- <https://alex-njugi.github.io/CodeBridge-Coding-Club/>

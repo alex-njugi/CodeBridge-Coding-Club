@@ -1,0 +1,10 @@
+Image sources used for the website demo:
+- hero-team.jpg - Unsplash image URL used in project source
+- coding-desk.jpg - Unsplash image URL used in project source
+- team-discussion.jpg - Unsplash image URL used in project source
+- workshop-board.jpg - Unsplash image URL used in project source
+- laptop-closeup.jpg - Unsplash image URL used in project source
+- code-screen.jpg - Unsplash image URL used in project source
+
+Audio:
+- welcome-message.wav - generated for educational demonstration within this project

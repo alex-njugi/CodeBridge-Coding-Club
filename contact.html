@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeBridge Coding Club | Contact</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container navbar">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">CB</span>
+                <span class="brand-text">
+                    <strong>CodeBridge Coding Club</strong>
+                    <span>Learn. Build. Grow.</span>
+                </span>
+            </a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <p class="breadcrumb">Home / Contact</p>
+                <span class="eyebrow">Membership Form</span>
+                <h1>Contact the club team or submit a membership enquiry.</h1>
+                <p class="lead">This page includes a fully labeled HTML form with clear inputs, helpful descriptions, and a privacy reminder.</p>
+            </div>
+        </section>
+
+        <section class="section-tight">
+            <div class="container two-column">
+                <div class="form-wrapper">
+                    <h2 style="font-size: 1.8rem;">Membership enquiry form</h2>
+                    <form action="mailto:hello@codebridgeclub.org" method="post" enctype="text/plain">
+                        <fieldset>
+                            <legend>Personal details</legend>
+                            <div class="form-row">
+                                <div>
+                                    <label for="full-name">Full name</label>
+                                    <input type="text" id="full-name" name="Full Name" placeholder="Enter your full name" required />
+                                </div>
+                                <div>
+                                    <label for="email">Email address</label>
+                                    <input type="email" id="email" name="Email Address" placeholder="Enter your email address" required />
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div>
+                                    <label for="student-level">Level of study</label>
+                                    <select id="student-level" name="Level of Study" required>
+                                        <option value="">Select your level</option>
+                                        <option>Beginner</option>
+                                        <option>Intermediate</option>
+                                        <option>Advanced beginner</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="interest-area">Main area of interest</label>
+                                    <select id="interest-area" name="Interest Area" required>
+                                        <option value="">Choose one area</option>
+                                        <option>Web design</option>
+                                        <option>HTML and CSS</option>
+                                        <option>UI and layout</option>
+                                        <option>Project collaboration</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Club preference</legend>
+                            <label>Preferred session type</label>
+                            <div class="radio-row">
+                                <label class="inline-option" for="onsite">
+                                    <input type="radio" id="onsite" name="Session Type" value="On-site" required /> On-site
+                                </label>
+                                <label class="inline-option" for="hybrid">
+                                    <input type="radio" id="hybrid" name="Session Type" value="Hybrid" /> Hybrid
+                                </label>
+                                <label class="inline-option" for="weekend">
+                                    <input type="radio" id="weekend" name="Session Type" value="Weekend practice" /> Weekend practice
+                                </label>
+                            </div>
+
+                            <label>Skills you would like to build</label>
+                            <div class="checkbox-row">
+                                <label class="inline-option" for="html-css">
+                                    <input type="checkbox" id="html-css" name="Skills" value="HTML and CSS" /> HTML and CSS
+                                </label>
+                                <label class="inline-option" for="layout">
+                                    <input type="checkbox" id="layout" name="Skills" value="Layout design" /> Layout design
+                                </label>
+                                <label class="inline-option" for="projects">
+                                    <input type="checkbox" id="projects" name="Skills" value="Projects" /> Projects
+                                </label>
+                            </div>
+
+                            <label for="message">Why would you like to join the club?</label>
+                            <textarea id="message" name="Message" placeholder="Write a short message about your interest in the club."></textarea>
+                        </fieldset>
+
+                        <div class="form-actions">
+                            <input type="submit" value="Send Enquiry" />
+                            <input type="reset" value="Clear Form" class="button-secondary" />
+                        </div>
+                    </form>
+
+                    <div class="notice">
+                        <p><strong>Privacy note:</strong> Please do not include passwords, personal identification numbers, or other sensitive information in this form. This website only asks for basic contact details needed for a membership enquiry.</p>
+                    </div>
+                </div>
+
+                <aside class="info-box">
+                    <span class="eyebrow">Contact Details</span>
+                    <h2 style="font-size: 1.8rem;">Get in touch with the club coordinators</h2>
+                    <p><strong>Email:</strong> hello@codebridgeclub.org</p>
+                    <p><strong>Meeting venue:</strong> Innovation Lab, Main Campus Block</p>
+                    <p><strong>Practice sessions:</strong> Tuesday and Thursday, 4:00 PM - 6:00 PM</p>
+                    <p><a href="programs.html">Read the detailed club program schedule.</a></p>
+                    <div class="image-frame" style="margin-top: 24px;">
+                        <img src="assets/images/laptop-closeup.jpg" alt="A mentor showing a student something on a laptop screen." />
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <p>© 2026 CodeBridge Coding Club. Built as an educational web design project.</p>
+            <p><a href="index.html">Return to the homepage</a></p>
+        </div>
+    </footer>
+</body>
+</html>

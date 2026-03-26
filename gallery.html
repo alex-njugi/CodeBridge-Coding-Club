@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeBridge Coding Club | Gallery</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container navbar">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">CB</span>
+                <span class="brand-text">
+                    <strong>CodeBridge Coding Club</strong>
+                    <span>Learn. Build. Grow.</span>
+                </span>
+            </a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <p class="breadcrumb">Home / Gallery</p>
+                <span class="eyebrow">Image Slider</span>
+                <h1>A clean gallery page with a working slider and supporting images.</h1>
+                <p class="lead">This page combines a slideshow with image captions and a small gallery grid to make the website more visual and engaging.</p>
+            </div>
+        </section>
+
+        <section class="section-tight">
+            <div class="container">
+                <div class="slider" aria-label="Coding club image slideshow">
+                    <div class="slide active">
+                        <img src="assets/images/hero-team.jpg" alt="Students smiling and working together on a shared laptop." />
+                        <div class="slide-caption">
+                            <h2 style="font-size: 1.5rem; margin-bottom: 8px;">Collaboration first</h2>
+                            <p>Members learn faster when they build, discuss, and review ideas together.</p>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="assets/images/team-discussion.jpg" alt="A coding club team meeting around laptops in a shared workspace." />
+                        <div class="slide-caption">
+                            <h2 style="font-size: 1.5rem; margin-bottom: 8px;">Real teamwork</h2>
+                            <p>Small group activities help students practice communication and project planning.</p>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="assets/images/coding-desk.jpg" alt="A neat work desk with coding displayed on a laptop screen." />
+                        <div class="slide-caption">
+                            <h2 style="font-size: 1.5rem; margin-bottom: 8px;">Professional setup</h2>
+                            <p>A good digital workspace encourages focus, consistency, and attention to detail.</p>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="assets/images/workshop-board.jpg" alt="A student presenting ideas during a workshop using sticky notes on a wall." />
+                        <div class="slide-caption">
+                            <h2 style="font-size: 1.5rem; margin-bottom: 8px;">Planning and brainstorming</h2>
+                            <p>Strong websites begin with clear goals, user needs, and organized content.</p>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="assets/images/code-screen.jpg" alt="Detailed source code displayed on a dark computer screen." />
+                        <div class="slide-caption">
+                            <h2 style="font-size: 1.5rem; margin-bottom: 8px;">Attention to code quality</h2>
+                            <p>We encourage steady improvement in structure, readability, and presentation.</p>
+                        </div>
+                    </div>
+
+                    <div class="slider-controls">
+                        <button type="button" aria-label="Previous slide" onclick="nextSlide(-1)">&#10094;</button>
+                        <button type="button" aria-label="Next slide" onclick="nextSlide(1)">&#10095;</button>
+                    </div>
+
+                    <div class="slider-dots" aria-label="Slider navigation buttons">
+                        <button type="button" class="active" aria-label="Go to slide 1" onclick="goToSlide(0)"></button>
+                        <button type="button" aria-label="Go to slide 2" onclick="goToSlide(1)"></button>
+                        <button type="button" aria-label="Go to slide 3" onclick="goToSlide(2)"></button>
+                        <button type="button" aria-label="Go to slide 4" onclick="goToSlide(3)"></button>
+                        <button type="button" aria-label="Go to slide 5" onclick="goToSlide(4)"></button>
+                    </div>
+                </div>
+
+                <div class="gallery-grid">
+                    <article class="gallery-card">
+                        <img src="assets/images/laptop-closeup.jpg" alt="A close-up of hands pointing at a laptop during a technology discussion." />
+                        <h3>Mentorship moments</h3>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="assets/images/team-discussion.jpg" alt="Students gathered around a table with multiple laptops open." />
+                        <h3>Shared learning</h3>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="assets/images/coding-desk.jpg" alt="A tidy workstation prepared for coding and digital design practice." />
+                        <h3>Focused practice</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <p>© 2026 CodeBridge Coding Club. Built as an educational web design project.</p>
+            <p><a href="contact.html">Ask about club membership</a></p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -22,6 +22,3 @@ Notes:
 - The contact form uses a mailto action and opens the default email application.
 - The gallery page contains a working image slider.
 - The website uses a light theme only.
-
-Live at:
-- <https://alex-njugi.github.io/CodeBridge-Coding-Club/>

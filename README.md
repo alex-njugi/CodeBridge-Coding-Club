@@ -16,11 +16,9 @@
 - `assets/images`
 - `assets/audio`
 - `Professional_Reflection.pdf`
-- `credits.txt`
 
 ## Notes
 - The contact form uses a `mailto:` action and opens the default email application.
-- The gallery page contains a working image slider.
 
 ## Live Demo
 [Visit CodeBridge Coding Club](https://alex-njugi.github.io/CodeBridge-Coding-Club/)
